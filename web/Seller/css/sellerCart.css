@@ -1,0 +1,47 @@
+body{
+    background-color:  #eee;;
+}
+.img-cart {
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td{
+    border:1px solid #FFFFFF;
+    table-layout: fixed;word-break: break-all; word-wrap: break-word;
+}
+
+table tr th {
+    background:#e7f3f9;
+}
+th{
+    width: 130px;
+}
+#descriptionTh{
+    width: auto;
+}
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.add-product-container{
+    position:fixed;
+}
+.input-text{
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.table-hover tbody tr:hover td{
+    background: aliceblue;
+}
+.text-overflow{
+    display:block;             /*内联对象需加*/
+    word-break:keep-all;       /* 不换行 */
+
+    white-space:nowrap;        /* 不换行 */
+
+    overflow:hidden;           /* 内容超出宽度时隐藏超出部分的内容 */
+
+    text-overflow:ellipsis;
+}

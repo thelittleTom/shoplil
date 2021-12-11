@@ -1,0 +1,88 @@
+body{
+    background:#eee;
+}
+
+/*panel*/
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.product-list img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+    position: relative;
+    height: 240px;
+}
+.product-list .price {
+    color:#fc5959 ;
+    font-size: 15px;
+}
+
+.adtocart {
+    background: #5bc0de;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    left: 42%;
+    bottom: -32px;
+    position: absolute;
+}
+
+.adtocart i{
+    color: #fff;
+    font-size: 25px;
+    line-height: 42px;
+}
+.pro-title {
+    color: #5A5A5A;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.image-card{
+    height: 105%;
+}
+.product-container{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/*.hover:hover {*/
+/*    -webkit-transform: translateY(-3px);*/
+/*    -ms-transform: translateY(-3px);*/
+/*    transform: translateY(-3px);*/
+/*    -webkit-box-shadow: 0 0 6px #999;*/
+/*    box-shadow: 0 0 6px #999;*/
+/*    -webkit-transition: all .5s ease-out;*/
+/*    transition: all .3s ease-out;*/
+/*    border: #5bc0de;*/
+/*}*/
+.ele:hover {
+    border:1px solid red;
+}
+
+.ele {
+    border:1px solid transparent;
+}
+.btn-padding{
+    padding:0px;
+}
+.text-over{
+    display:block;             /*内联对象需加*/
+    word-break:keep-all;       /* 不换行 */
+
+    white-space:nowrap;        /* 不换行 */
+
+    overflow:hidden;           /* 内容超出宽度时隐藏超出部分的内容 */
+
+    text-overflow:ellipsis;
+}
